@@ -7,15 +7,15 @@
         <legend>Личная информация</legend><br>
         <div>
             <label for="Last_name">Фамилия<span class="red">*</span></label>
-            <input type="text" name="Last_name" required>
+            <input type="text" name="Last_name" placeholder="Фамилия" pattern="[А-Яа-яЁё]" required>
           </div><br>
       <div>
         <label for="First_name">Имя<span class="red">*</span></label>
-        <input type="text" name="First_name" required>
+        <input type="text" name="First_name" placeholder="Имя" pattern="[А-Яа-яЁё]" required>
       </div><br>
       <div>
         <label for="Third_name">Отчество</label>
-        <input type="text" name="Third_name">
+        <input type="text" name="Third_name" placeholder="Отчество" pattern="[А-Яа-яЁё]">
       </div><br>
         <div>
           <label for="Eye_color">Цвет глаз</label>
@@ -34,7 +34,7 @@
       </div>
       <div>
         <label for="Birth_day">Дата рождения<span class="red">*</span></label>
-        <input type="text" name="Birth_daye" required>
+        <input type="text" name="Birth_daye" placeholder="Дата рождения" required>
       </div><br>
       <div>
         <label for="Age">Возраст<span class="red">*</span></label>
@@ -138,11 +138,11 @@
       </div><br>
       <div>
         <label for="Index">Индекс<span class="red">*</span></label>
-        <input type="text" name="Index" required>
+        <input type="text" name="Index" placeholder="Индекс" required>
       </div><br>
       <div>
         <label for="Home_address">Домашний адрес<span class="red">*</span></label>
-        <input type="text" name="Home_address" required>
+        <input type="text" name="Home_address" placeholder="Домашний адрес" required>
       </div><br>
       <div>
         <label for="registration_date">Дата регистрации<span class="red">*</span></label>
@@ -152,11 +152,11 @@
       <legend>Контактная информация</legend><br>
       <div>
         <label for="phone">Номер телефона<span class="red">*</span></label>
-        <input type="phone" name="phone" required>
+        <input type="phone" name="phone" placeholder="Номер телефона" pattern="+7-[0-9] {3}-[0-9] {3}-[0-9]{2}-[0-9]{2}" required>
       </div><br>
       <div>
         <label for="email">E-mail<span class="red">*</span></label>
-        <input type="email" name="email" required>
+        <input type="email" name="email" placeholder="E-mail" required>
       </div><br>
     </fieldset><br>
     <fieldset>
