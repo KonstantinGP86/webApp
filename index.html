@@ -58,11 +58,11 @@ button {
           </div><br>
       <div>
         <label for="First_name">Имя<span class="red">*</span></label>
-        <input type="text" name="First_name" placeholder="Имя" pattern="[А-Яа-яЁё]" required>
+        <input type="text" name="First_name" placeholder="Имя" pattern="[А-Яа-яЁё]{2,20}" required>
       </div><br>
       <div>
         <label for="Third_name">Отчество</label>
-        <input type="text" name="Third_name" placeholder="Отчество" pattern="[А-Яа-яЁё]">
+        <input type="text" name="Third_name" placeholder="Отчество" pattern="[А-Яа-яЁё]{2,20}">
       </div><br>
         <div>
           <label for="Eye_color">Цвет глаз</label>
@@ -81,7 +81,7 @@ button {
       </div>
       <div>
         <label for="Birth_day">Дата рождения<span class="red">*</span></label>
-        <input type="text" name="Birth_daye" placeholder="Дата рождения" required>
+        <input type="date" name="Birth_daye" min="1900-01-01" max="2003-12-31" placeholder="Дата рождения" required>
       </div><br>
       <div>
         <label for="Age">Возраст<span class="red">*</span></label>
